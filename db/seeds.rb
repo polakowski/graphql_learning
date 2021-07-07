@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Todo.create name: 'Pick up daughter from school', priority: :medium
+Todo.create name: 'Empty the dishwasher', priority: :low
+Todo.create name: 'Go to work', priority: :high
+Todo.create name: 'Buy groceries', priority: :medium
+
+puts 'Created todos'
