@@ -1,0 +1,19 @@
+development:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: graphql_learning_dev
+  pool:     5
+  username: postgres
+  password:
+  template: template0
+
+test:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: graphql_learning_test
+  pool:     5
+  username: postgres
+  password:
+  template: template0
