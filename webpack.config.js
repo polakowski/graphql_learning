@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './client/index.jsx',
+  entry: './client/index.js',
   mode: 'development',
   output: {
     filename: 'bundle.js',
@@ -30,7 +30,7 @@ module.exports = {
         },
       },
       {
-        test: /\.m?js/,
+        test: /\.mjs/,
         resolve: {
           fullySpecified: false,
         },

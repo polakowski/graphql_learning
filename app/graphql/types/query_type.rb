@@ -10,7 +10,7 @@ module Types
     field :todos, [Types::TodoType], null: false
 
     def todos
-      ::Todo.all
+      ::Todo.order(priority: :desc, created_at: :desc)
     end
   end
 end
